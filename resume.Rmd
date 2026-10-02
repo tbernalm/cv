@@ -66,9 +66,9 @@ Language Skills {#skills}
 
 ```{r}
 skills <- tribble(
-  ~skill,               
-  "R",                  
-  "SQL",                
+  ~skill, ~level,              
+  "R",      1,           
+  "SQL",    1,          
 )
 build_skill_bars(skills)
 ```
@@ -116,12 +116,6 @@ Selected Positions {data-icon=suitcase}
 position_data %>% print_section('positions')
 ```
 
-Selected Writing {data-icon=newspaper}
---------------------------------------------------------------------------------
 
-
-```{r}
-position_data %>% print_section('writings')
-```
 
 
